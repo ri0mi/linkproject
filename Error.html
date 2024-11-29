@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404 - Página no encontrada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #1e3d58;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 120px;
+            color: #0077b6;
+            text-shadow: 4px 4px 8px rgba(0, 119, 182, 0.6);
+        }
+
+        p {
+            font-size: 22px;
+            color: #005f73;
+            margin: 20px 0;
+        }
+
+        a {
+            color: #00b4d8;
+            text-decoration: none;
+            font-size: 18px;
+            border: 2px solid #00b4d8;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #00b4d8;
+            color: white;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .error-image {
+            max-width: 80%;
+            max-height: 300px;
+        }
+
+        /* Estilos para el botón en la parte superior izquierda */
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: #00b4d8;
+            font-size: 18px;
+            border: 2px solid #00b4d8;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #00b4d8;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <a class="back-button" href="/linkproject/index.html">Regresar al inicio</a>
+    
+    <h1>404</h1>
+    <p>¡Ups! Página no encontrada.</p>
+    
+    <!-- Espacio para la imagen -->
+    <div class="image-container">
+        <img class="error-image" src="meme.jpeg" alt="Imagen de error 404">
+    </div>
+</body>
+</html>
